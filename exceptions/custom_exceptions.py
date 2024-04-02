@@ -1,0 +1,2 @@
+class SupplierAlreadyExistsError(Exception):
+    pass
