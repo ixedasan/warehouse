@@ -11,11 +11,11 @@ class Product:
         self.price = price
         self.supplier = supplier
 
-    def get_supplier_quantity(self):
-        """
-        Повертає кількість товару, наявного у постачальника.
-        """
-        for product in self.supplier.products:
-            if product.name == self.name:
-                return product.quantity
-        return 0
+    # def get_supplier_quantity(self):
+    #     """
+    #     Повертає кількість товару, наявного у постачальника.
+    #     """
+    #     for product in self.supplier.products:
+    #         if product.name == self.name:
+    #             return product.quantity
+    #     return 0

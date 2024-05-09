@@ -100,7 +100,7 @@ def remove_supplier(warehouse):
 
 
 def view_suppliers(warehouse):
-    suppliers = warehouse.get_suppliers()
+    suppliers = warehouse.suppliers
     if not suppliers:
         print("Немає постачальників у базі даних.")
     else:

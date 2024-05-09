@@ -31,9 +31,6 @@ class Warehouse:
         for product in products_to_remove:
             self.remove_product(product)
 
-    def get_suppliers(self):
-        return self.suppliers
-
     def get_supplier_products(self, supplier):
         return [product for product in supplier.products]
 
